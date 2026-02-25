@@ -1,4 +1,15 @@
+# Intelligent Portfolio Agent
+
+A portfolio that integrated AI chat to answer about my information and projects in the portfolio.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Tech Stack
+
+- **Frontend**: Next.js 14 with JavaScript
+- **Styling**: TailwindCSS with shadcn/ui components
+- **Database**: Supabase (PostgreSQL)
+- **Deployment**: Vercel
 
 ## Getting Started
 
@@ -19,6 +30,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Database Setup
+
+1. Create a Supabase project at [supabase.com](https://supabase.com)
+2. Run the SQL script in `database/schema.sql` in the Supabase SQL Editor
+3. Copy your Supabase credentials to `.env.local`
 
 ## Learn More
 
